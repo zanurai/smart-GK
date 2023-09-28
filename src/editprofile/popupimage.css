@@ -1,0 +1,58 @@
+.popup-container {
+  background-color: white;
+  width: 50%;
+  text-align: center;
+  padding: 50px;
+  margin: 100px auto;
+}
+.image-drag-input {
+  display: flex;
+  margin-top: 50px;
+}
+.button-popup-profile {
+  display: flex;
+  gap: 20px;
+}
+.popup-container .popup-imagebtn {
+  background-color: var(--cl-blue-color);
+  color: var(--text-color);
+  width: 60px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.popup-container .popup-imagebtn:hover {
+  background-color: 0;
+}
+
+.popup-container .pupup-cancle-button {
+  border-color: red;
+  color: red;
+}
+ .popup-container .pupup-cancle-button:hover {
+  border-color: rgb(250, 76, 76);
+  color: rgb(250, 76, 76);
+}
+@media (max-width: 768px) {
+  .image-drag-input {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .button-popup-profile {
+    margin-top: 10px;
+    display: flex;
+    /* gap: 100px; */
+  }
+}
+
+@media (max-width: 992px) {
+  .image-drag-input {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .button-popup-profile {
+    margin-top: 10px;
+    display: flex;
+    /* gap: 100px; */
+  }
+}

@@ -1,0 +1,25 @@
+.button-btn {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.forget-btn {
+  color: var(--colors);
+  border: none;
+  outline: none;
+}
+
+.popup-container {
+  margin-top: 20px;
+}
+
+/*term*/
+.term-button {
+  color: var(--colors);
+  border: none;
+  outline: none;
+}
+
+.check-term {
+  background-color: var(--cl-blue-color);
+}

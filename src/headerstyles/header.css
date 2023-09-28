@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.coustom-breadcrumb {
+  position: relative;
+  overflow: hidden;
+}
+.circle {
+  border: 1px rgba(255, 255, 255, 0.1) solid;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  position: absolute;
+  left: -95px;
+  top: -90px;
+  z-index: 1;
+}
+.small-circle {
+  border: 1px rgba(255, 255, 255, 0.1) solid;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+  right: -55px;
+  bottom: -65px;
+  /* transform: translateY(-50%); */
+}
+
+.section-exam {
+  background-color: var(--cl-blue-color);
+  padding: 40px 0;
+
+  /* position: absolute;
+  z-index: -100; */
+}
+.exam-desc {
+  color: white;
+}
+.exam-desc h3 {
+  font-size: 20px;
+}
+
+.exam-desc p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+@media (max-width: 576px) {
+  .circle {
+    position: absolute;
+    left: -150px;
+  }
+}

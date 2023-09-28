@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.section-padding {
+  padding: 70px 0;
+}
+.examroles-container {
+  padding: 16px;
+
+  border: 2px rgb(241, 240, 240) solid;
+}
+
+.examroles-header {
+  margin-top: 25px;
+}
+.examroles-container h1 {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.examroles-header li {
+  margin-left: 50px;
+  line-height: 30px;
+  font-size: 15px;
+}
+.examroles-header ul li {
+  list-style: disc;
+}
+.btn-container {
+  text-align: right;
+  margin-right: 40px;
+}
+.examroles-container .examrole-botton {
+  background-color: var(--cl-blue-color);
+  color: var(--text-color);
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+/* @media (max-width: 720px) {
+  .examroles-header li {
+    margin-left: 30px;
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .examroles-container {
+    padding: 16px;
+    padding-bottom: 50px;
+    border: 2px rgb(241, 240, 240) solid;
+    margin-top: 50%;
+  }
+} */

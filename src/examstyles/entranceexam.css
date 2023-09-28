@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section-exam-padding {
+  padding: 80px 0;
+}
+.section2-entrance-exam {
+  /* margin-top: 200px; */
+}
+.section2-entrance-exam h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+/* .subject-entrance-section {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+
+.management-section {
+  border: 1px rgb(237, 248, 248) solid;
+  padding: 30px;
+  background-color: rgb(246, 248, 248);
+  border-radius: 10px;
+}
+
+.management-section:hover {
+  background-color: rgb(237, 248, 248);
+}
+.icon-arrow {
+  cursor: pointer;
+  color: var(--colors);
+}
+.icon-arrow a {
+  color: var(--colors);
+}
+.subject-section {
+  border: 1px rgb(237, 248, 248) solid;
+  padding: 30px;
+  background-color: rgb(245, 247, 247);
+  margin-bottom: 25px;
+  /* background-color: rgb(229, 248, 248); */
+  border-radius: 10px;
+}
+
+.subject-section h3 {
+  font-size: 16px;
+}
+.subject-section a {
+  text-decoration: none;
+}
+.management-section p {
+  margin-top: 10px;
+}
+
+.management-section h5 {
+  margin-top: 5px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.management-section a {
+  text-decoration: none;
+}
+.subject-section p {
+  margin-top: 10px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.subject-section span {
+  margin-top: 0;
+}
+.subject-section h5 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.subject-section .attempt-already-question {
+  margin-top: 8px;
+  display: block;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.subject-section:hover {
+  background-color: rgb(237, 248, 248);
+}
+.subject-section .icon-arrow .icon {
+  visibility: hidden;
+}
+
+.subject-section .icon-arrow:hover .icon {
+  visibility: visible;
+}
+
+.management-section .icon-arrow div {
+  visibility: hidden;
+}
+
+.management-section .icon-arrow:hover .icon {
+  visibility: visible;
+}
+
+.container-examempty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.container-examempty h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.container-examempty p {
+  font-size: 16px;
+}

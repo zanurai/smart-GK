@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  /* background-image: url("../../public/sign.avif"); */
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+.login-container {
+  width: 500px;
+  margin: 0 auto;
+
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  /* box-shadow: 7px 7px 3px 0 rgba(182, 184, 184, 0.7);
+  transition: box-shadow 0.3; */
+}
+
+/* .login-container:hover {
+  box-shadow: 10px 10px 6px 0 rgba(90, 90, 90, 0.7);
+} */
+.header-login {
+  /* padding-left: 20px; */
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-top: 30px;
+}
+.header-login h1 {
+  font-size: 35px;
+}
+.header-login p {
+  margin-top: 15px;
+  font-size: 19px;
+  color: rgb(75, 74, 74);
+}
+.header-login a {
+  margin-top: 20px;
+  font-size: 19px;
+  color: var(--colors);
+  text-decoration: none;
+}
+.input-fields {
+  margin-top: 20px;
+}
+.input-fields .email-text-field {
+  width: 100%;
+  outline: none;
+  box-shadow: none;
+}
+
+.input-fields .password-text-field {
+  width: 100%;
+  /* margin-top: 15px; */
+}
+.input-fields .password-field {
+  margin-top: 20px;
+}
+.password-set {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  margin: 32px 0;
+  justify-content: space-between;
+}
+.password-set p {
+  margin-bottom: 0;
+}
+.password-set a {
+  margin-left: auto;
+  text-decoration: none;
+  color: var(--colors);
+}
+
+.password-set a:hover {
+  text-decoration: underline;
+}
+.sign-in-box .btn {
+  background-color: var(--cl-blue-color);
+  color: var(--text-color);
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+  .login-container {
+    width: 100%;
+
+    margin-left: 0;
+  }
+  .input-fields .email-text-field {
+    margin-top: 15px;
+  }
+  .input-fields .password-text-field {
+    margin-top: 15px;
+  }
+  .sign-in-box .btn {
+  }
+  .main-container {
+    background-image: none;
+  }
+}
+@media (min-width: 998px) {
+  .password-set {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-container {
+    background-image: none;
+  }
+}

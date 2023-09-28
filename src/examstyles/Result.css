@@ -1,0 +1,36 @@
+.result-overview {
+  padding: 50px 0;
+}
+.result-overview .main-title {
+  color: var(--cl-blue-color);
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.progress-bar {
+  background-color: #e3eff7;
+  border-radius: 30px;
+  height: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+.progressbarfill {
+  background-color: var(--cl-blue-color);
+  border-radius: 50px;
+  color: #fff;
+  height: 100%;
+  transition: all ease-in-out 0.5;
+}
+.subject-overview {
+  border: 1px solid #ddd;
+  padding: 30px;
+}
+.sobject-over-view .title {
+  margin-bottom: 15px;
+}
+.sobject-over-view p {
+  color: #2c2724bf;
+}
+.sobject-over-view .progressbarfill {
+  background-color: #000;
+}
